@@ -7,14 +7,14 @@
 		<artifactId>cloud-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>cloud-provider-dept</artifactId>
+	<artifactId>cloud-provider-dept-8003</artifactId>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.brandon.cloud</groupId>
 			<artifactId>colud-api</artifactId>
 		</dependency>
-		
+
 		<!--eureka-client服务端 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
@@ -54,7 +54,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
@@ -84,6 +84,5 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
-
 	</dependencies>
 </project>
